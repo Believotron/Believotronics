@@ -34,8 +34,10 @@
 
 // Motor declarations
     Adafruit_MotorShield AFMS = Adafruit_MotorShield(); // Adafruit_MotorShield(Address); Address = 0x60-0x63
+
     // Connect a stepper motor with 200 steps per revolution (1.8 degree)
     // to motor port #2 (M3 and M4)
+    Adafruit_StepperMotor *myMotor0 = AFMS.getStepper(200, 0);
     Adafruit_StepperMotor *myMotor = AFMS.getStepper(200, 1);
 
 // Debug declarations
@@ -56,6 +58,7 @@ void setup()
 
     AFMS.begin();  // create with the default frequency 1.6KHz
     myMotor->setSpeed(100);  // rpm
+    myMotor0->setSpeed(100);
 
     digitalWrite(ledPin, HIGH);     // turn the ledPin on
 }
@@ -86,11 +89,13 @@ void loop()
                     //iMagnitude = (JoyYVal - 512) / 512;
                     debugJoyXY(JoyXVal,JoyYVal);
                     myMotor->step(iMagnitude, FORWARD, SINGLE);
+                    //myMotor0->step(iMagnitude, FORWARD, SINGLE);
             }
             else if (JoyYVal < 412)
             {
                     //iMagnitude = (JoyYVal - 512) / 512;
                     myMotor->step(iMagnitude, BACKWARD, SINGLE);
+                    //myMotor0->step(iMagnitude, BACKWARD, SINGLE);
                     debugJoyXY(JoyXVal,JoyYVal);
             }
             //delay(20);
