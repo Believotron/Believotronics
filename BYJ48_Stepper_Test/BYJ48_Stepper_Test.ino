@@ -12,15 +12,19 @@
      28/9/2013
   */
 
-#define IN1  8
-#define IN2  9
-#define IN3  10
-#define IN4  11
+//#define IN1  8
+//#define IN2  9
+//#define IN3  10
+//#define IN4  11
+#define IN1  13
+#define IN2  12
+#define IN3  11
+#define IN4  10
 int Steps = 0;
 boolean Direction = true;// gre
 unsigned long last_time;
 unsigned long currentMillis ;
-int steps_left=4095*4;
+int steps_left=4095;
 long time;
 void setup()
 {
@@ -50,9 +54,9 @@ void loop()
 
   Serial.println(time);
   Serial.println("Wait...!");
-  delay(2000);
+  delay(1000);
   Direction=!Direction;
-  steps_left=4096*4;
+  steps_left=4096;
 }
 
 void stepper(int xw){
@@ -123,12 +127,12 @@ void SetDirection()
     if(Direction==1)
     {
         Steps++;
-        digitalWrite(13, LOW);
+        //digitalWrite(13, LOW);
     }
     if(Direction==0)
     {
         Steps--;
-        digitalWrite(13, HIGH);
+        //digitalWrite(13, HIGH);
     }
     if(Steps>7){Steps=0;}
     if(Steps<0){Steps=7; }
