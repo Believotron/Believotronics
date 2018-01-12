@@ -75,9 +75,31 @@ void setup()
     motors[1].iDirection        = 0;
     motors[1].iStep             = 0;
 
-    for (int iMotors=0; iMotors < 2; iMotors++)
+    motors[2].iSignalAddress[0] = 13;
+    motors[2].iSignalAddress[1] = 12;
+    motors[2].iSignalAddress[2] = 11;
+    motors[2].iSignalAddress[3] = 10;
+    motors[2].iStepRatio        = 1;
+    motors[2].iDirection        = 0;
+    motors[2].iStep             = 0;
+
+
+
+    motors[3].iSignalAddress[0] = 9;
+    motors[3].iSignalAddress[1] = 6;
+    motors[3].iSignalAddress[2] = 5;
+    motors[3].iSignalAddress[3] = 22;
+    motors[3].iStepRatio        = 1;
+    motors[3].iDirection        = 0;
+    motors[3].iStep             = 0;
+
+    for (int iMotors=0; iMotors < NUM_MOTOR_SIGNALS; iMotors++)
     {
-            for (int i=0; i< NUM_MOTOR_SIGNALS; i++) {pinMode(motors[iMotors].iSignalAddress[i], OUTPUT);}
+            for (int i=0; i< NUM_MOTOR_SIGNALS; i++)
+            {
+                    pinMode(motors[iMotors].iSignalAddress[i], OUTPUT);
+                    digitalWrite(motors[iMotors].iSignalAddress[i], 0);
+            }
     }
 
 
@@ -150,10 +172,10 @@ void SetMotor(uint8_t iMotor, uint8_t iStep)
             break;
 
         default:
-            digitalWrite(motors[0].iSignalAddress[0], 0);
-            digitalWrite(motors[0].iSignalAddress[1], 0);
-            digitalWrite(motors[0].iSignalAddress[2], 0);
-            digitalWrite(motors[0].iSignalAddress[3], 0);
+            digitalWrite(motors[iMotor].iSignalAddress[0], 0);
+            digitalWrite(motors[iMotor].iSignalAddress[1], 0);
+            digitalWrite(motors[iMotor].iSignalAddress[2], 0);
+            digitalWrite(motors[iMotor].iSignalAddress[3], 0);
             break;
     }
 }
@@ -170,13 +192,15 @@ int debugJoyXY()
     return 0;
 }
 
-int debugFoo(int foo1, int foo2)
+int debugFoo(int foo1, int foo2, int foo3)
 {
     Serial.print("Foo1: [");
     Serial.print(foo1);
     Serial.print("], Foo2: [");
     Serial.print(foo2);
-    Serial.print("\n");
+    Serial.print("], Foo3: [");
+    Serial.print(foo3);
+    Serial.print("]\n");
 
     return 0;
 }
@@ -192,9 +216,19 @@ void PollJoysticks()
 
 }
 
+void debugJoy(int iJoy)
+{
+    Serial.print("joy x: [");
+    Serial.print(joy[iJoy].iXVal);
+    Serial.print("], joy y: [");
+    Serial.print(joy[iJoy].iYVal);
+    Serial.print("] \n");
+}
+
 void loop()
 {
     PollJoysticks();
+    //debugJoy(0);
 
     int i= 0;
     int iMotor = 1;
@@ -207,30 +241,37 @@ void loop()
     else if (joy[i].iYVal < 432) { motors[iMotor].iDirection = -1; }
     else                         { motors[iMotor].iDirection =  0; }
 
+
     i = 1; iMotor = 2;
     if      (joy[i].iYVal > 900) { motors[iMotor].iDirection =  1; }
     else if (joy[i].iYVal < 432) { motors[iMotor].iDirection = -1; }
     else                         { motors[iMotor].iDirection =  0; }
 
     iMotor = 3;
-    if      (joy[i].iYVal > 900) { motors[iMotor].iDirection = -1; }
-    else if (joy[i].iYVal < 432) { motors[iMotor].iDirection =  1; }
+    if      (joy[i].iXVal > 900) { motors[iMotor].iDirection = -1; }
+    else if (joy[i].iXVal < 432) { motors[iMotor].iDirection =  1; }
     else                         { motors[iMotor].iDirection =  0; }
 
-    for (int i=0; i<1; i++)
+    for (int i=0; i<4; i++)
     {
         if (motors[i].iDirection !=0)
         {
 
-            if      (motors[i].iDirection > 0) { if (++(motors[iMotor].iStep) >=8){ motors[iMotor].iStep = 0; } }
-            else if (motors[i].iDirection < 0) { if (--(motors[iMotor].iStep) < 0){ motors[iMotor].iStep = 7; } }
+           if      (motors[i].iDirection > 0) { if (++(motors[i].iStep) >=8){ motors[i].iStep = 0; } }
+           else if (motors[i].iDirection < 0) { if (--(motors[i].iStep) < 0){ motors[i].iStep = 7; } }
 
-            debugFoo(motors[iMotor].iStep, motors[i].iDirection);
+            debugFoo(i, motors[i].iStep, motors[i].iDirection);
 
-            SetMotor(iMotor, motors[iMotor].iStep);
+            SetMotor(i, motors[i].iStep);
+
         }
+
     }
-    delayMicroseconds(2000);
+    //delay(6 );
+    //delayMicroseconds(1);
+
+
+
 
 /*
     if (joy[0].iXVal > 900)
