@@ -171,6 +171,9 @@ void SetMotor(uint8_t iMotor, uint8_t iStep)
             digitalWrite(motors[iMotor].iSignalAddress[3], 1);
             break;
 
+#define STEP_OFF 99
+
+        case STEP_OFF:
         default:
             digitalWrite(motors[iMotor].iSignalAddress[0], 0);
             digitalWrite(motors[iMotor].iSignalAddress[1], 0);
@@ -225,78 +228,99 @@ void debugJoy(int iJoy)
     Serial.print("] \n");
 }
 
+#define JOY_THRESH_LO 200
+#define JOY_THRESH_HI 850
+void setMotorDir(int iJoy, int isX, int iMotor, int iDir)
+{
+    if( isX )
+    {
+        if (iDir > 0)
+        {
+            if      (joy[iJoy].iXVal > JOY_THRESH_HI) { motors[iMotor].iDirection =  1; }
+            else if (joy[iJoy].iXVal < JOY_THRESH_LO) { motors[iMotor].iDirection = -1; }
+            else                                      { motors[iMotor].iDirection =  0; }
+        }
+        else
+        {
+            if      (joy[iJoy].iXVal > JOY_THRESH_HI) { motors[iMotor].iDirection = -1; }
+            else if (joy[iJoy].iXVal < JOY_THRESH_LO) { motors[iMotor].iDirection =  1; }
+            else                                      { motors[iMotor].iDirection =  0; }
+        }
+    }
+    else // is Y
+    {
+        if (iDir > 0)
+        {
+            if      (joy[iJoy].iYVal > JOY_THRESH_HI) { motors[iMotor].iDirection =  1; }
+            else if (joy[iJoy].iYVal < JOY_THRESH_LO) { motors[iMotor].iDirection = -1; }
+            else                                      { motors[iMotor].iDirection =  0; }
+        }
+        else
+        {
+            if      (joy[iJoy].iYVal > JOY_THRESH_HI) { motors[iMotor].iDirection = -1; }
+            else if (joy[iJoy].iYVal < JOY_THRESH_LO) { motors[iMotor].iDirection =  1; }
+            else                                      { motors[iMotor].iDirection =  0; }
+        }
+    }
+
+}
+
+
 void loop()
 {
     PollJoysticks();
     //debugJoy(0);
+    #define XDIR 1
+    #define YDIR 0
+    #define JOY0 0
+    #define JOY1 1
+    #define MOTOR0 0
+    #define MOTOR1 1
+    #define MOTOR2 2
+    #define MOTOR3 3
+    #define DIRFWD 1
+    #define DIRREV 0
 
-    int i= 0;
-    int iMotor = 1;
-    if      (joy[i].iXVal > 900) { motors[iMotor].iDirection =  1; }
-    else if (joy[i].iXVal < 432) { motors[iMotor].iDirection = -1; }
-    else                         { motors[iMotor].iDirection =  0; }
-
-    iMotor = 0;
-    if      (joy[i].iYVal > 900) { motors[iMotor].iDirection =  1; }
-    else if (joy[i].iYVal < 432) { motors[iMotor].iDirection = -1; }
-    else                         { motors[iMotor].iDirection =  0; }
+    setMotorDir(JOY0, YDIR, MOTOR0, DIRFWD);
 
 
-    i = 1; iMotor = 2;
-    if      (joy[i].iYVal > 900) { motors[iMotor].iDirection =  1; }
-    else if (joy[i].iYVal < 432) { motors[iMotor].iDirection = -1; }
-    else                         { motors[iMotor].iDirection =  0; }
+    setMotorDir(JOY1, XDIR, MOTOR1, DIRFWD);
 
-    iMotor = 3;
-    if      (joy[i].iXVal > 900) { motors[iMotor].iDirection = -1; }
-    else if (joy[i].iXVal < 432) { motors[iMotor].iDirection =  1; }
-    else                         { motors[iMotor].iDirection =  0; }
+    // int iMotor = 1;
+    // if      (joy[i].iXVal > 900) { motors[iMotor].iDirection =  1; }
+    // else if (joy[i].iXVal < 432) { motors[iMotor].iDirection = -1; }
+    // else                         { motors[iMotor].iDirection =  0; }
+    //
+    //
+    // iMotor = 2;
+
+    setMotorDir(JOY1, YDIR, MOTOR2, DIRFWD);
+    // if      (joy[i].iYVal > 900) { motors[iMotor].iDirection =  1; }
+    // else if (joy[i].iYVal < 432) { motors[iMotor].iDirection = -1; }
+    // else                         { motors[iMotor].iDirection =  0; }
+    //
+    // iMotor = 3;
+
+    setMotorDir(JOY1, YDIR, MOTOR3, DIRREV);
+
+    // if      (joy[i].iYVal > 900) { motors[iMotor].iDirection = -1; }
+    // else if (joy[i].iYVal < 432) { motors[iMotor].iDirection =  1; }
+    // else                         { motors[iMotor].iDirection =  0; }
 
     for (int i=0; i<4; i++)
     {
         if (motors[i].iDirection !=0)
         {
 
-           if      (motors[i].iDirection > 0) { if (++(motors[i].iStep) >=8){ motors[i].iStep = 0; } }
-           else if (motors[i].iDirection < 0) { if (--(motors[i].iStep) < 0){ motors[i].iStep = 7; } }
+           if      (motors[i].iDirection > 0) { if (++(motors[i].iStep) >=8){ motors[i].iStep = 0;        } }
+           else if (motors[i].iDirection < 0) { if (--(motors[i].iStep) < 0){ motors[i].iStep = 7;        } }
+           else                               {                               motors[i].iStep = STEP_OFF;   }
 
             debugFoo(i, motors[i].iStep, motors[i].iDirection);
 
             SetMotor(i, motors[i].iStep);
-
         }
-
     }
     //delay(6 );
     //delayMicroseconds(1);
-
-
-
-
-/*
-    if (joy[0].iXVal > 900)
-    {
-        motors[iMotor].iDirection = 1;
-
-        SetMotor(iMotor, motors[iMotor].iStep);
-        delayMicroseconds(1000);
-    }
-    else if (joy[0].iXVal < 412)
-    {
-        motors[iMotor].iDirection = -1;
-        if (--(motors[iMotor].iStep) < 0){ motors[iMotor].iStep = 7; }
-        SetMotor(iMotor, motors[iMotor].iStep);
-        delayMicroseconds(1000);
-    }
-    else { motors[iMotor].iDirection = 0; }
-*/
-
-//debugJoyXY();
-
-    // if  (motors[0].bDirection == 1) { if (++(motors[0].iStep) >=8){ motors[0].iStep = 0; } }
-    // else                            { if (--(motors[0].iStep) < 0){ motors[0].iStep = 7; } }
-    //
-    //
-    // delayMicroseconds(2000);
-
 }
