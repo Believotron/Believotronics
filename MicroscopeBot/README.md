@@ -34,6 +34,7 @@ Phase 3: (MVP OpenSCAD Model of MicroscopeBot core components)
 
 ---
 Phase 1 (Complete): Create proof of concept using any CAD tool
+
 Phase 0 (Complete): Test the ability for a 3D Printer to create interlocking rack and pinon system.
 
 [website](http://believotron.com/believotronics) | [donate](https://www.patreon.com/Believotron) | [community](http://community.believotron.com/c/believotronics)
