@@ -1,5 +1,6 @@
 # Believotronics
 [website](http://believotron.com/believotronics) | [donate](https://www.patreon.com/Believotron) | [community](http://community.believotron.com/c/believotronics)
+
 Believotronics is a low-cost DIY open source robotics platform you can print and build at work or from home. Our first projects are a MicroscopeBot and a ThroughholeSolderBot.
 
 We also develop mechatronics, jigs, firmware, assemblies, etc. Your basic toolkit for interfacing the physical world with the software world, allowing software to exist in physical space. Robots building robots. That sort of thing.
@@ -20,3 +21,5 @@ The current focus of the project is the [OpenSCAD Refactor](/Core3D/readme.md). 
 Each project is maintained and documented in the project subdirectory.
 
 Unless otherwise noted, this project uses the [MIT License](license).
+
+[website](http://believotron.com/believotronics) | [donate](https://www.patreon.com/Believotron) | [community](http://community.believotron.com/c/believotronics)
