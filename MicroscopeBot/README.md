@@ -3,11 +3,11 @@
 
 Believotronics is a low-cost DIY open source robotics platform you can print and build at work or from home. The MicroscopeBot allows you to pan, zoom, and sweep focus fields and see the world of the small.
 
-![Basic MicroscopeBot](/MicroscopeBot/images/microscopebot_wide.jpg)
+![Basic MicroscopeBot](/MicroscopeBot/images/microscopebot_wide.JPG)
 
-![Basic MicroscopeBot](/MicroscopeBot/images/microscopebot_close.jpg)
+![Basic MicroscopeBot](/MicroscopeBot/images/microscopebot_close.JPG)
 
-![Basic MicroscopeBot](/MicroscopeBot/images/microscope_toolhead.jpg)
+![Basic MicroscopeBot](/MicroscopeBot/images/microscope_toolhead.JPG)
 
 Please [consider helping us with your financial support:](https://www.patreon.com/Believotron)
 
