@@ -10,6 +10,10 @@ We also develop mechatronics, jigs, firmware, assemblies, etc. Your basic toolki
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6cPdLHY97b4
 " target="_blank"><img src="http://img.youtube.com/vi/6cPdLHY97b4/0.jpg"
+alt="Help support Believotronics with your financial donation" /></a>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6cPdLHY97b4
+" target="_blank"><img src="http://img.youtube.com/vi/6cPdLHY97b4/0.jpg"
 alt="Help support Believotronics with your financial donation" width="240" height="180" border="0" /></a>
 
 
