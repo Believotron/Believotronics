@@ -1,14 +1,39 @@
-# Believotronics
-***
-An open source project for robots, mechatronics, jigs, firmware, assemblies, etc. Your basic toolkit for interfacing the physical world with the software world, allowing software to exist in physical space. Robots building robots. That sort of thing.
+# Believotronics MicroscopeBot
+[website](http://believotron.com/believotronics) | [donate](https://www.patreon.com/Believotron) | [community](http://community.believotron.com/c/believotronics)
 
-A starting point for a collective, free, low cost robotics system.
+Believotronics is a low-cost DIY open source robotics platform you can print and build at work or from home. The MicroscopeBot allows you to pan, zoom, and sweep focus fields and see the world of the small.
 
-#Current Status
-***
-[![Generic badge](https://img.shields.io/badge/<Microscope_Bot_Status>-<Phase 1>-<Green>.svg)](https://shields.io/)
+![Basic MicroscopeBot](images/microscopebot_wide.jpg)
 
-[![Generic badge](https://img.shields.io/badge/Mircoscope_bot-Phase_1-green.svg)](https://shields.io/)
+![Basic MicroscopeBot](images/microscopebot_close.jpg)
 
-[![Alt text](Web link or path)](web link to website)
-[![Some sort of thing](Web link or path)](web link to website)
+![Basic MicroscopeBot](images/microscope_toolhead.jpg)
+
+Please [consider helping us with your financial support:](https://www.patreon.com/Believotron)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6cPdLHY97b4
+" target="_blank"><img src="http://img.youtube.com/vi/6cPdLHY97b4/0.jpg"
+alt="Help support Believotronics with your financial donation" /></a>
+
+## Examples
+![Basic MicroscopeBot](images/pcba_zoom.jpg)
+
+![Basic MicroscopeBot](images/sweater_zoom.jpg)
+
+![Basic MicroscopeBot](images/focus.gif)
+
+
+----
+## Current Status
+[![Generic badge](https://img.shields.io/badge/OpenSCAD_Refactor-Phase_2-green.svg)](/Core3D/readme.md)
+
+Phase 2 (Current): Pause
+This project is on hold until the Core3D refactoring project is complete.
+
+Phase 3: (MVP OpenSCAD Model of MicroscopeBot core components)
+
+---
+Phase 1 (Complete): Create proof of concept using any CAD tool
+Phase 0 (Complete): Test the ability for a 3D Printer to create interlocking rack and pinon system.
+
+[website](http://believotron.com/believotronics) | [donate](https://www.patreon.com/Believotron) | [community](http://community.believotron.com/c/believotronics)
