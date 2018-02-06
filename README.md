@@ -7,7 +7,11 @@ We also develop mechatronics, jigs, firmware, assemblies, etc. Your basic toolki
 
 ![The Believotronics Basic Set](/common_images/Believotronics_Basic_Set.JPG)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6cPdLHY97b4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=6cPdLHY97b4
+" target="_blank"><img src="http://img.youtube.com/vi/6cPdLHY97b4/0.jpg"
+alt="Help support Believotronics with your financial donation" width="240" height="180" border="0" /></a>
+
+
 ----
 ## Current Status
 [![Generic badge](https://img.shields.io/badge/OpenSCAD_Refactor-Phase_2-green.svg)](/Core3D/readme.md) [![Generic badge](https://img.shields.io/badge/MircoscopeBot-Phase_1-green.svg)](/MicroscopeBot/readme.md) [![Generic badge](https://img.shields.io/badge/SolderpasetBot-Phase_0-blue.svg)](/SolderpasetBot/readme.md) [![Generic badge](https://img.shields.io/badge/ThroughholeSolderBot-Phase_0-blue.svg)](/ThroughholeSolderBot/readme.md)
