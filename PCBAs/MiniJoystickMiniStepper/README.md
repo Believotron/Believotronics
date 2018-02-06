@@ -3,7 +3,7 @@
 
 Believotronics is a low-cost DIY open source robotics platform you can print and build at work or from home. The MiniJoystickMiniStepper motor is a proof of concept to allow us to start prototyping controls using joysticks and driving motors with the ULM2803s.
 
-![Basic CartesianBot](/SolderpasteBot/images/believotronics_wide.JPG)
+![Basic CartesianBot](/SolderpasteBot/images/believotronics_wide.jpg)
 
 ![Basic CartesianBot](/PCBAs/MiniJoystickMiniStepper/images/MiniJoyMiniStepper.png)
 
