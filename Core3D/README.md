@@ -5,15 +5,13 @@ Believotronics is a low-cost DIY open source robotics platform you can print and
 
 We're going to start with the basic rack and pinion + rack hugger and convert everything needed for the basic MicroscopeBot.
 
+![The Believotronics Basic Set](/common_images/Believotronics_Basic_Set.JPG)
+
+Please [consider helping us with your financial support:](https://www.patreon.com/Believotron):
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6cPdLHY97b4
 " target="_blank"><img src="http://img.youtube.com/vi/6cPdLHY97b4/0.jpg"
 alt="Help support Believotronics with your financial donation" /></a>
 
-
-![The Believotronics Basic Set](/common_images/Believotronics_Basic_Set.JPG)
-
-Please [consider helping us with your financial support:](https://www.patreon.com/Believotron):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6cPdLHY97b4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 ----
 ## Current Status
 [![Generic badge](https://img.shields.io/badge/OpenSCAD_Refactor-Phase_2-green.svg)](/Core3D/readme.md)
