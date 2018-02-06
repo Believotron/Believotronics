@@ -1,4 +1,4 @@
-# Believotronics MicroscopeBot
+# Believotronics SolderpasteBot
 [website](http://believotron.com/believotronics) | [donate](https://www.patreon.com/Believotron) | [community](http://community.believotron.com/c/believotronics)
 
 Believotronics is a low-cost DIY open source robotics platform you can print and build at work or from home. The SolderpasteBot allows you to despense glues, fluids, and pastes in an even, repeatable amount and pattern.
