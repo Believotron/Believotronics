@@ -15,7 +15,7 @@ alt="Help support Believotronics with your financial donation" /></a>
 
 ----
 ## Current Status
-[![Generic badge](https://img.shields.io/badge/OpenSCAD_Refactor-Phase_2-green.svg)](/Core3D/readme.md)
+[![Generic badge](https://img.shields.io/badge/Core3D_OpenSCAD_Refactor-Phase_2-green.svg)](/Core3D/readme.md)
 
 Phase 2 (Current):
 We are currently cleaning up the entire Believotronics Github repo. We're making sure all the existing models are in the repo as-is before we start the conversion.

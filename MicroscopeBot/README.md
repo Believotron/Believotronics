@@ -25,7 +25,7 @@ alt="Help support Believotronics with your financial donation" /></a>
 
 ----
 ## Current Status
-[![Generic badge](https://img.shields.io/badge/OpenSCAD_Refactor-Phase_2-green.svg)](/Core3D/readme.md)
+[![Generic badge](https://img.shields.io/badge/MircroscopeBot-Phase_2-green.svg)](/Core3D/readme.md)
 
 Phase 2 (Current): Pause
 This project is on hold until the Core3D refactoring project is complete.
