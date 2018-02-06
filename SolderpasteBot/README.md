@@ -5,7 +5,7 @@ Believotronics is a low-cost DIY open source robotics platform you can print and
 
 ![Basic CartesianBot](/SolderpasteBot/images/believotronics_wide.jpg)
 
-![Basic CartesianBot](/SolderpasteBot/images/solderpaste_toolhead.jpg)
+![Basic CartesianBot](/SolderpasteBot/images/solderpaste_toolhead.JPG)
 
 Please [consider helping us with your financial support:](https://www.patreon.com/Believotron)
 
