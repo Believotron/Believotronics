@@ -7,7 +7,7 @@ We're going to start with the basic rack and pinion + rack hugger and convert ev
 
 ![The Believotronics Basic Set](/common_images/Believotronics_Basic_Set.JPG)
 
-Please [consider helping us with your financial support:](https://www.patreon.com/Believotron):
+Please [consider helping us with your financial support:](https://www.patreon.com/Believotron)
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=6cPdLHY97b4
 " target="_blank"><img src="http://img.youtube.com/vi/6cPdLHY97b4/0.jpg"
