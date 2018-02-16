@@ -1,4 +1,4 @@
-update=2016-12-31 6:43:30 PM
+update=2018-02-15 6:28:09 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,9 +27,9 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../BelievotronWanderlustHardware/Liberry
+LibDir=../MiniJoystickMiniStepper
 [eeschema/libraries]
-LibName1=MiniJoyMiniStepper-rescue
+LibName1=MiniJoyMiniStepper
 LibName2=power
 LibName3=device
 LibName4=transistors
