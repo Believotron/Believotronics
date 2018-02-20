@@ -1,0 +1,688 @@
+Info: Reading netlist file "C:\Users\danie\Documents\WIP\Believotron\Believotron-Github\Believotronics\PCBAs\MiniJoystickMiniStepper\MiniJoyMiniStepper.net".
+
+Info: Using references to match components and footprints.
+
+* Warning: component 'U1': board footprint 'Liberry:ADAFRUIT_FEATHER_debug_1', netlist footprint 'MiniJoystickMiniStepper:QFP_48_0.5_8'
+
+Error: No footprint defined for component 'U8'.
+
+Error: No footprint defined for component 'U7'.
+
+Error: No footprint defined for component 'U9'.
+
+Error: No footprint defined for component 'U10'.
+
+Info: Checking netlist component footprint "COM1:/58686A11:Liberry:TH_0.1_1x2_Jumper".
+
+Adding new component "COM1:/58686A11" footprint "Liberry:TH_0.1_1x2_Jumper".
+
+Changing component "COM1:/58686A11" pin "1" net name from "" to "/COM".
+
+Changing component "COM1:/58686A11" pin "1" net name from "" to "/COM".
+
+Info: Checking netlist component footprint "GND1:/5868603B:Liberry:TH_0.1_1x2_Jumper".
+
+Info: Checking netlist component footprint "J0:/586856B8:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J0:/586856B8" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J0:/586856B8" pin "1" net name from "" to "VCC".
+
+Changing component "J0:/586856B8" pin "2" net name from "" to "Net-(J0-Pad2)".
+
+Changing component "J0:/586856B8" pin "3" net name from "" to "Net-(J0-Pad3)".
+
+Changing component "J0:/586856B8" pin "4" net name from "" to "Net-(J0-Pad4)".
+
+Changing component "J0:/586856B8" pin "5" net name from "" to "Net-(J0-Pad5)".
+
+Changing component "J0:/586856B8" pin "4" net name from "" to "Net-(J0-Pad4)".
+
+Changing component "J0:/586856B8" pin "1" net name from "" to "VCC".
+
+Changing component "J0:/586856B8" pin "2" net name from "" to "Net-(J0-Pad2)".
+
+Changing component "J0:/586856B8" pin "3" net name from "" to "Net-(J0-Pad3)".
+
+Changing component "J0:/586856B8" pin "5" net name from "" to "Net-(J0-Pad5)".
+
+Info: Checking netlist component footprint "J1:/58685807:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J1:/58685807" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J1:/58685807" pin "1" net name from "" to "VCC".
+
+Changing component "J1:/58685807" pin "2" net name from "" to "Net-(J1-Pad2)".
+
+Changing component "J1:/58685807" pin "3" net name from "" to "Net-(J1-Pad3)".
+
+Changing component "J1:/58685807" pin "4" net name from "" to "Net-(J1-Pad4)".
+
+Changing component "J1:/58685807" pin "5" net name from "" to "Net-(J1-Pad5)".
+
+Changing component "J1:/58685807" pin "4" net name from "" to "Net-(J1-Pad4)".
+
+Changing component "J1:/58685807" pin "1" net name from "" to "VCC".
+
+Changing component "J1:/58685807" pin "2" net name from "" to "Net-(J1-Pad2)".
+
+Changing component "J1:/58685807" pin "3" net name from "" to "Net-(J1-Pad3)".
+
+Changing component "J1:/58685807" pin "5" net name from "" to "Net-(J1-Pad5)".
+
+Info: Checking netlist component footprint "J2:/58685B56:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J2:/58685B56" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J2:/58685B56" pin "1" net name from "" to "VCC".
+
+Changing component "J2:/58685B56" pin "2" net name from "" to "Net-(J2-Pad2)".
+
+Changing component "J2:/58685B56" pin "3" net name from "" to "Net-(J2-Pad3)".
+
+Changing component "J2:/58685B56" pin "4" net name from "" to "Net-(J2-Pad4)".
+
+Changing component "J2:/58685B56" pin "5" net name from "" to "Net-(J2-Pad5)".
+
+Changing component "J2:/58685B56" pin "4" net name from "" to "Net-(J2-Pad4)".
+
+Changing component "J2:/58685B56" pin "1" net name from "" to "VCC".
+
+Changing component "J2:/58685B56" pin "2" net name from "" to "Net-(J2-Pad2)".
+
+Changing component "J2:/58685B56" pin "3" net name from "" to "Net-(J2-Pad3)".
+
+Changing component "J2:/58685B56" pin "5" net name from "" to "Net-(J2-Pad5)".
+
+Info: Checking netlist component footprint "J3:/58685B5C:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J3:/58685B5C" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J3:/58685B5C" pin "1" net name from "" to "VCC".
+
+Changing component "J3:/58685B5C" pin "2" net name from "" to "Net-(J3-Pad2)".
+
+Changing component "J3:/58685B5C" pin "3" net name from "" to "Net-(J3-Pad3)".
+
+Changing component "J3:/58685B5C" pin "4" net name from "" to "Net-(J3-Pad4)".
+
+Changing component "J3:/58685B5C" pin "5" net name from "" to "Net-(J3-Pad5)".
+
+Changing component "J3:/58685B5C" pin "4" net name from "" to "Net-(J3-Pad4)".
+
+Changing component "J3:/58685B5C" pin "1" net name from "" to "VCC".
+
+Changing component "J3:/58685B5C" pin "2" net name from "" to "Net-(J3-Pad2)".
+
+Changing component "J3:/58685B5C" pin "3" net name from "" to "Net-(J3-Pad3)".
+
+Changing component "J3:/58685B5C" pin "5" net name from "" to "Net-(J3-Pad5)".
+
+Info: Checking netlist component footprint "J4:/5A867826:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J4:/5A867826" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J4:/5A867826" pin "1" net name from "" to "VCC".
+
+Changing component "J4:/5A867826" pin "2" net name from "" to "Net-(J4-Pad2)".
+
+Changing component "J4:/5A867826" pin "3" net name from "" to "Net-(J4-Pad3)".
+
+Changing component "J4:/5A867826" pin "4" net name from "" to "Net-(J4-Pad4)".
+
+Changing component "J4:/5A867826" pin "5" net name from "" to "Net-(J4-Pad5)".
+
+Changing component "J4:/5A867826" pin "4" net name from "" to "Net-(J4-Pad4)".
+
+Changing component "J4:/5A867826" pin "1" net name from "" to "VCC".
+
+Changing component "J4:/5A867826" pin "2" net name from "" to "Net-(J4-Pad2)".
+
+Changing component "J4:/5A867826" pin "3" net name from "" to "Net-(J4-Pad3)".
+
+Changing component "J4:/5A867826" pin "5" net name from "" to "Net-(J4-Pad5)".
+
+Info: Checking netlist component footprint "J5:/5A86782C:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J5:/5A86782C" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J5:/5A86782C" pin "1" net name from "" to "VCC".
+
+Changing component "J5:/5A86782C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/5A86782C" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "J5:/5A86782C" pin "4" net name from "" to "Net-(J5-Pad4)".
+
+Changing component "J5:/5A86782C" pin "5" net name from "" to "Net-(J5-Pad5)".
+
+Changing component "J5:/5A86782C" pin "4" net name from "" to "Net-(J5-Pad4)".
+
+Changing component "J5:/5A86782C" pin "1" net name from "" to "VCC".
+
+Changing component "J5:/5A86782C" pin "2" net name from "" to "Net-(J5-Pad2)".
+
+Changing component "J5:/5A86782C" pin "3" net name from "" to "Net-(J5-Pad3)".
+
+Changing component "J5:/5A86782C" pin "5" net name from "" to "Net-(J5-Pad5)".
+
+Info: Checking netlist component footprint "J6:/5A867832:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J6:/5A867832" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J6:/5A867832" pin "1" net name from "" to "VCC".
+
+Changing component "J6:/5A867832" pin "2" net name from "" to "Net-(J6-Pad2)".
+
+Changing component "J6:/5A867832" pin "3" net name from "" to "Net-(J6-Pad3)".
+
+Changing component "J6:/5A867832" pin "4" net name from "" to "Net-(J6-Pad4)".
+
+Changing component "J6:/5A867832" pin "5" net name from "" to "Net-(J6-Pad5)".
+
+Changing component "J6:/5A867832" pin "4" net name from "" to "Net-(J6-Pad4)".
+
+Changing component "J6:/5A867832" pin "1" net name from "" to "VCC".
+
+Changing component "J6:/5A867832" pin "2" net name from "" to "Net-(J6-Pad2)".
+
+Changing component "J6:/5A867832" pin "3" net name from "" to "Net-(J6-Pad3)".
+
+Changing component "J6:/5A867832" pin "5" net name from "" to "Net-(J6-Pad5)".
+
+Info: Checking netlist component footprint "J7:/5A867838:Liberry:M20-1060500_DEBUG".
+
+Adding new component "J7:/5A867838" footprint "Liberry:M20-1060500_DEBUG".
+
+Changing component "J7:/5A867838" pin "1" net name from "" to "VCC".
+
+Changing component "J7:/5A867838" pin "2" net name from "" to "Net-(J7-Pad2)".
+
+Changing component "J7:/5A867838" pin "3" net name from "" to "Net-(J7-Pad3)".
+
+Changing component "J7:/5A867838" pin "4" net name from "" to "Net-(J7-Pad4)".
+
+Changing component "J7:/5A867838" pin "5" net name from "" to "Net-(J7-Pad5)".
+
+Changing component "J7:/5A867838" pin "4" net name from "" to "Net-(J7-Pad4)".
+
+Changing component "J7:/5A867838" pin "1" net name from "" to "VCC".
+
+Changing component "J7:/5A867838" pin "2" net name from "" to "Net-(J7-Pad2)".
+
+Changing component "J7:/5A867838" pin "3" net name from "" to "Net-(J7-Pad3)".
+
+Changing component "J7:/5A867838" pin "5" net name from "" to "Net-(J7-Pad5)".
+
+Info: Checking netlist component footprint "J8:/5868C629:Liberry:single_0.1".
+
+Adding new component "J8:/5868C629" footprint "Liberry:single_0.1".
+
+Changing component "J8:/5868C629" pin "1" net name from "" to "/COM".
+
+Info: Checking netlist component footprint "J9:/5A86785E:Liberry:single_0.1".
+
+Adding new component "J9:/5A86785E" footprint "Liberry:single_0.1".
+
+Changing component "J9:/5A86785E" pin "1" net name from "" to "/COM".
+
+Info: Checking netlist component footprint "J10:/5A867864:Liberry:single_0.1".
+
+Adding new component "J10:/5A867864" footprint "Liberry:single_0.1".
+
+Changing component "J10:/5A867864" pin "1" net name from "" to "/COM".
+
+Info: Checking netlist component footprint "J100:/5868BD70:Liberry:single_0.1".
+
+Adding new component "J100:/5868BD70" footprint "Liberry:single_0.1".
+
+Changing component "J100:/5868BD70" pin "1" net name from "" to "/COM".
+
+Info: Checking netlist component footprint "J101:/58691A62:Liberry:single_0.1".
+
+Adding new component "J101:/58691A62" footprint "Liberry:single_0.1".
+
+Changing component "J101:/58691A62" pin "1" net name from "" to "/JOY1_AXIS1".
+
+Info: Checking netlist component footprint "J102:/58691976:Liberry:single_0.1".
+
+Adding new component "J102:/58691976" footprint "Liberry:single_0.1".
+
+Changing component "J102:/58691976" pin "1" net name from "" to "/JOY1_AXIS0".
+
+Info: Checking netlist component footprint "J103:/586914DD:Liberry:single_0.1".
+
+Adding new component "J103:/586914DD" footprint "Liberry:single_0.1".
+
+Changing component "J103:/586914DD" pin "1" net name from "" to "/JOY0_SW".
+
+Info: Checking netlist component footprint "J104:/58691411:Liberry:single_0.1".
+
+Adding new component "J104:/58691411" footprint "Liberry:single_0.1".
+
+Changing component "J104:/58691411" pin "1" net name from "" to "/JOY0_AXIS1".
+
+Info: Checking netlist component footprint "J105:/58691334:Liberry:single_0.1".
+
+Adding new component "J105:/58691334" footprint "Liberry:single_0.1".
+
+Changing component "J105:/58691334" pin "1" net name from "" to "/JOY0_AXIS0".
+
+Info: Checking netlist component footprint "J107:/58691B37:Liberry:single_0.1".
+
+Adding new component "J107:/58691B37" footprint "Liberry:single_0.1".
+
+Changing component "J107:/58691B37" pin "1" net name from "" to "/JOY1_SW".
+
+Info: Checking netlist component footprint "JF1000:/58693180:Liberry:ADAFRUIT_FEATHER_debug_1".
+
+Adding new component "JF1000:/58693180" footprint "Liberry:ADAFRUIT_FEATHER_debug_1".
+
+Changing component "JF1000:/58693180" pin "GND" net name from "" to "GND".
+
+Changing component "JF1000:/58693180" pin "TX" net name from "" to "Net-(JF1000-PadTX)".
+
+Changing component "JF1000:/58693180" pin "RX" net name from "" to "Net-(JF1000-PadRX)".
+
+Changing component "JF1000:/58693180" pin "MISO" net name from "" to "Net-(JF1000-PadMISO)".
+
+Changing component "JF1000:/58693180" pin "MOSI" net name from "" to "Net-(JF1000-PadMOSI)".
+
+Changing component "JF1000:/58693180" pin "SCK" net name from "" to "Net-(JF1000-PadSCK)".
+
+Changing component "JF1000:/58693180" pin "A5" net name from "" to "Net-(JF1000-PadA5)".
+
+Changing component "JF1000:/58693180" pin "A4" net name from "" to "Net-(JF1000-PadA4)".
+
+Changing component "JF1000:/58693180" pin "A3" net name from "" to "/JOY1_AXIS1".
+
+Changing component "JF1000:/58693180" pin "A2" net name from "" to "/JOY1_AXIS0".
+
+Changing component "JF1000:/58693180" pin "A1" net name from "" to "/JOY0_AXIS1".
+
+Changing component "JF1000:/58693180" pin "A0" net name from "" to "/JOY0_AXIS0".
+
+Changing component "JF1000:/58693180" pin "GND" net name from "" to "GND".
+
+Changing component "JF1000:/58693180" pin "ARf" net name from "" to "GND".
+
+Changing component "JF1000:/58693180" pin "3V" net name from "" to "Net-(JF1000-Pad3V)".
+
+Changing component "JF1000:/58693180" pin "RST" net name from "" to "Net-(JF1000-PadRST)".
+
+Changing component "JF1000:/58693180" pin "SDA" net name from "" to "Net-(JF1000-PadSDA)".
+
+Changing component "JF1000:/58693180" pin "SCL" net name from "" to "Net-(JF1000-PadSCL)".
+
+Changing component "JF1000:/58693180" pin "D05" net name from "" to "Net-(JF1000-PadD05)".
+
+Changing component "JF1000:/58693180" pin "D06" net name from "" to "Net-(JF1000-PadD06)".
+
+Changing component "JF1000:/58693180" pin "D09" net name from "" to "Net-(JF1000-PadD09)".
+
+Changing component "JF1000:/58693180" pin "D10" net name from "" to "Net-(JF1000-PadD10)".
+
+Changing component "JF1000:/58693180" pin "D11" net name from "" to "Net-(JF1000-PadD11)".
+
+Changing component "JF1000:/58693180" pin "D12" net name from "" to "Net-(JF1000-PadD12)".
+
+Changing component "JF1000:/58693180" pin "D13" net name from "" to "Net-(JF1000-PadD13)".
+
+Changing component "JF1000:/58693180" pin "USB" net name from "" to "Net-(JF1000-PadUSB)".
+
+Changing component "JF1000:/58693180" pin "BAT" net name from "" to "Net-(JF1000-PadBAT)".
+
+Changing component "JF1000:/58693180" pin "USB" net name from "" to "Net-(JF1000-PadUSB)".
+
+Changing component "JF1000:/58693180" pin "BAT" net name from "" to "Net-(JF1000-PadBAT)".
+
+Changing component "JF1000:/58693180" pin "D13" net name from "" to "Net-(JF1000-PadD13)".
+
+Changing component "JF1000:/58693180" pin "D12" net name from "" to "Net-(JF1000-PadD12)".
+
+Changing component "JF1000:/58693180" pin "D05" net name from "" to "Net-(JF1000-PadD05)".
+
+Changing component "JF1000:/58693180" pin "SDA" net name from "" to "Net-(JF1000-PadSDA)".
+
+Changing component "JF1000:/58693180" pin "SCL" net name from "" to "Net-(JF1000-PadSCL)".
+
+Changing component "JF1000:/58693180" pin "D06" net name from "" to "Net-(JF1000-PadD06)".
+
+Changing component "JF1000:/58693180" pin "D09" net name from "" to "Net-(JF1000-PadD09)".
+
+Changing component "JF1000:/58693180" pin "D10" net name from "" to "Net-(JF1000-PadD10)".
+
+Changing component "JF1000:/58693180" pin "D11" net name from "" to "Net-(JF1000-PadD11)".
+
+Changing component "JF1000:/58693180" pin "A4" net name from "" to "Net-(JF1000-PadA4)".
+
+Changing component "JF1000:/58693180" pin "A3" net name from "" to "/JOY1_AXIS1".
+
+Changing component "JF1000:/58693180" pin "A2" net name from "" to "/JOY1_AXIS0".
+
+Changing component "JF1000:/58693180" pin "A1" net name from "" to "/JOY0_AXIS1".
+
+Changing component "JF1000:/58693180" pin "A0" net name from "" to "/JOY0_AXIS0".
+
+Changing component "JF1000:/58693180" pin "GND" net name from "" to "GND".
+
+Changing component "JF1000:/58693180" pin "A5" net name from "" to "Net-(JF1000-PadA5)".
+
+Changing component "JF1000:/58693180" pin "RST" net name from "" to "Net-(JF1000-PadRST)".
+
+Changing component "JF1000:/58693180" pin "3V" net name from "" to "Net-(JF1000-Pad3V)".
+
+Changing component "JF1000:/58693180" pin "ARf" net name from "" to "GND".
+
+Changing component "JF1000:/58693180" pin "RX" net name from "" to "Net-(JF1000-PadRX)".
+
+Changing component "JF1000:/58693180" pin "MOSI" net name from "" to "Net-(JF1000-PadMOSI)".
+
+Changing component "JF1000:/58693180" pin "SCK" net name from "" to "Net-(JF1000-PadSCK)".
+
+Changing component "JF1000:/58693180" pin "MISO" net name from "" to "Net-(JF1000-PadMISO)".
+
+Changing component "JF1000:/58693180" pin "GND" net name from "" to "GND".
+
+Changing component "JF1000:/58693180" pin "TX" net name from "" to "Net-(JF1000-PadTX)".
+
+Info: Checking netlist component footprint "R1:/58681F84:MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005".
+
+Adding new component "R1:/58681F84" footprint "MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005".
+
+Info: Checking netlist component footprint "R2:/5868200C:MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005".
+
+Adding new component "R2:/5868200C" footprint "MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005".
+
+Info: Checking netlist component footprint "U1:/5A8B3A44:MiniJoystickMiniStepper:QFP_48_0.5_8".
+
+Info: Checking netlist component footprint "U3:/5A862D47:MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Adding new component "U3:/5A862D47" footprint "MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Changing component "U3:/5A862D47" pin "16" net name from "" to "VCC".
+
+Changing component "U3:/5A862D47" pin "1" net name from "" to "Net-(U3-Pad1)".
+
+Changing component "U3:/5A862D47" pin "15" net name from "" to "Net-(U3-Pad15)".
+
+Changing component "U3:/5A862D47" pin "2" net name from "" to "Net-(U3-Pad2)".
+
+Changing component "U3:/5A862D47" pin "14" net name from "" to "/DATA".
+
+Changing component "U3:/5A862D47" pin "3" net name from "" to "Net-(U3-Pad3)".
+
+Changing component "U3:/5A862D47" pin "13" net name from "" to "/!OE".
+
+Changing component "U3:/5A862D47" pin "4" net name from "" to "Net-(U3-Pad4)".
+
+Changing component "U3:/5A862D47" pin "12" net name from "" to "Net-(U3-Pad12)".
+
+Changing component "U3:/5A862D47" pin "5" net name from "" to "Net-(U3-Pad5)".
+
+Changing component "U3:/5A862D47" pin "11" net name from "" to "/CLK_DATA".
+
+Changing component "U3:/5A862D47" pin "6" net name from "" to "Net-(U3-Pad6)".
+
+Changing component "U3:/5A862D47" pin "10" net name from "" to "/!SCLR".
+
+Changing component "U3:/5A862D47" pin "7" net name from "" to "Net-(U3-Pad7)".
+
+Changing component "U3:/5A862D47" pin "9" net name from "" to "Net-(U3-Pad9)".
+
+Changing component "U3:/5A862D47" pin "8" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U4:/5A86787C:MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Adding new component "U4:/5A86787C" footprint "MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Changing component "U4:/5A86787C" pin "16" net name from "" to "VCC".
+
+Changing component "U4:/5A86787C" pin "1" net name from "" to "Net-(U4-Pad1)".
+
+Changing component "U4:/5A86787C" pin "15" net name from "" to "Net-(U4-Pad15)".
+
+Changing component "U4:/5A86787C" pin "2" net name from "" to "Net-(U4-Pad2)".
+
+Changing component "U4:/5A86787C" pin "14" net name from "" to "Net-(U4-Pad14)".
+
+Changing component "U4:/5A86787C" pin "3" net name from "" to "Net-(U4-Pad3)".
+
+Changing component "U4:/5A86787C" pin "13" net name from "" to "/!OE".
+
+Changing component "U4:/5A86787C" pin "4" net name from "" to "Net-(U4-Pad4)".
+
+Changing component "U4:/5A86787C" pin "12" net name from "" to "Net-(U3-Pad12)".
+
+Changing component "U4:/5A86787C" pin "5" net name from "" to "Net-(U4-Pad5)".
+
+Changing component "U4:/5A86787C" pin "11" net name from "" to "/CLK_DATA".
+
+Changing component "U4:/5A86787C" pin "6" net name from "" to "Net-(U4-Pad6)".
+
+Changing component "U4:/5A86787C" pin "10" net name from "" to "/!SCLR".
+
+Changing component "U4:/5A86787C" pin "7" net name from "" to "Net-(U4-Pad7)".
+
+Changing component "U4:/5A86787C" pin "9" net name from "" to "Net-(U4-Pad9)".
+
+Changing component "U4:/5A86787C" pin "8" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U5:/5A863486:MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Adding new component "U5:/5A863486" footprint "MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Changing component "U5:/5A863486" pin "16" net name from "" to "VCC".
+
+Changing component "U5:/5A863486" pin "1" net name from "" to "Net-(U5-Pad1)".
+
+Changing component "U5:/5A863486" pin "15" net name from "" to "Net-(U5-Pad15)".
+
+Changing component "U5:/5A863486" pin "2" net name from "" to "Net-(U5-Pad2)".
+
+Changing component "U5:/5A863486" pin "14" net name from "" to "Net-(U3-Pad9)".
+
+Changing component "U5:/5A863486" pin "3" net name from "" to "Net-(U5-Pad3)".
+
+Changing component "U5:/5A863486" pin "13" net name from "" to "/!OE".
+
+Changing component "U5:/5A863486" pin "4" net name from "" to "Net-(U5-Pad4)".
+
+Changing component "U5:/5A863486" pin "12" net name from "" to "Net-(U3-Pad12)".
+
+Changing component "U5:/5A863486" pin "5" net name from "" to "Net-(U5-Pad5)".
+
+Changing component "U5:/5A863486" pin "11" net name from "" to "/CLK_DATA".
+
+Changing component "U5:/5A863486" pin "6" net name from "" to "Net-(U5-Pad6)".
+
+Changing component "U5:/5A863486" pin "10" net name from "" to "/!SCLR".
+
+Changing component "U5:/5A863486" pin "7" net name from "" to "Net-(U5-Pad7)".
+
+Changing component "U5:/5A863486" pin "9" net name from "" to "Net-(U4-Pad14)".
+
+Changing component "U5:/5A863486" pin "8" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U6:/5A867882:MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Adding new component "U6:/5A867882" footprint "MiniJoystickMiniStepper:SOIC-16_1.27x9.3".
+
+Changing component "U6:/5A867882" pin "16" net name from "" to "VCC".
+
+Changing component "U6:/5A867882" pin "1" net name from "" to "Net-(U10-Pad2)".
+
+Changing component "U6:/5A867882" pin "15" net name from "" to "Net-(U10-Pad1)".
+
+Changing component "U6:/5A867882" pin "2" net name from "" to "Net-(U10-Pad3)".
+
+Changing component "U6:/5A867882" pin "14" net name from "" to "Net-(U4-Pad9)".
+
+Changing component "U6:/5A867882" pin "3" net name from "" to "Net-(U10-Pad4)".
+
+Changing component "U6:/5A867882" pin "13" net name from "" to "/!OE".
+
+Changing component "U6:/5A867882" pin "4" net name from "" to "Net-(U10-Pad5)".
+
+Changing component "U6:/5A867882" pin "12" net name from "" to "Net-(U3-Pad12)".
+
+Changing component "U6:/5A867882" pin "5" net name from "" to "Net-(U10-Pad6)".
+
+Changing component "U6:/5A867882" pin "11" net name from "" to "/CLK_DATA".
+
+Changing component "U6:/5A867882" pin "6" net name from "" to "Net-(U10-Pad7)".
+
+Changing component "U6:/5A867882" pin "10" net name from "" to "/!SCLR".
+
+Changing component "U6:/5A867882" pin "7" net name from "" to "Net-(U10-Pad8)".
+
+Changing component "U6:/5A867882" pin "9" net name from "" to "Net-(U6-Pad9)".
+
+Changing component "U6:/5A867882" pin "8" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U7:/586C241A:".
+
+Error: Cannot add new component "U7:/586C241A" due to missing footprint "".
+
+Info: Checking netlist component footprint "U8:/586C2749:".
+
+Error: Cannot add new component "U8:/586C2749" due to missing footprint "".
+
+Info: Checking netlist component footprint "U9:/5A867870:".
+
+Error: Cannot add new component "U9:/5A867870" due to missing footprint "".
+
+Info: Checking netlist component footprint "U10:/5A867876:".
+
+Error: Cannot add new component "U10:/5A867876" due to missing footprint "".
+
+Info: Checking netlist component footprint "VCC1:/58685E6C:Liberry:TH_0.1_1x2_Jumper".
+
+Error: Component 'R1' pad 'S1.1' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R1' pad 'R1.3' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R1' pad 'R2.3' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R1' pad 'R2.1' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R1' pad 'R1.1' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R1' pad 'R2.2' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R1' pad 'S1.2' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R1' pad 'R1.2' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'S1.1' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'R1.3' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'R2.3' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'R2.1' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'R1.1' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'S1.2' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'R1.2' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'R2' pad 'R2.2' not found in footprint 'MiniJoystickMiniStepper:JOY_ALPS_RKJXV1224005'
+
+Error: Component 'U1' pad '1' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '2' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '3' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '4' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '5' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '6' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '7' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '27' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '44' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '15' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '25' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '35' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '45' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '16' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '26' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '36' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '46' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '17' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '34' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '37' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '47' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '18' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '28' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '38' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '48' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '19' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '29' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '39' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '12' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '8' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '9' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '10' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '20' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '30' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '40' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '11' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '21' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '31' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '41' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '22' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '32' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '42' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '13' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '23' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '33' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '43' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '14' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+
+Error: Component 'U1' pad '24' not found in footprint 'Liberry:ADAFRUIT_FEATHER_debug_1'
+

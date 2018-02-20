@@ -1,4 +1,4 @@
-update=2018-02-15 6:28:09 PM
+update=2018-02-19 1:09:41 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=believotron_wanderlust
 LibName32=arduino_shieldsNCL
+LibName33=ATSAMD21G18A
