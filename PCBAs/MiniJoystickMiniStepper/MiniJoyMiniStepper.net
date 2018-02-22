@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\danie\Documents\WIP\Believotron\Believotron-Github\Believotronics\PCBAs\MiniJoystickMiniStepper\MiniJoyMiniStepper.sch)
-    (date "2018-02-21 6:32:00 PM")
+    (date "2018-02-21 6:33:56 PM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -269,11 +269,13 @@
       (tstamp 5A8BEB63))
     (comp (ref U11)
       (value STM32F103C8T6_BLUE_PILL)
+      (footprint MiniJoystickMiniStepper:BLUEPILL_CORTEXM3_STM32F103C8T6)
       (libsource (lib MiniJoyMiniStepper) (part STM32F103C8T6_BLUE_PILL))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A8E122F))
     (comp (ref U1)
       (value MCP3008T-I/SL)
+      (footprint MiniJoystickMiniStepper:SOIC-16)
       (libsource (lib MiniJoyMiniStepper) (part MCP3008T-I/SL))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A8E2071))
