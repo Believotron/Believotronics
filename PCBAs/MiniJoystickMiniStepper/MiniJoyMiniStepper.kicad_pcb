@@ -3,7 +3,7 @@
   (general
     (links 309)
     (no_connects 0)
-    (area 101.524999 17.704999 190.575001 160.095001)
+    (area 99.901904 14.635714 197.278096 163.164286)
     (thickness 1.6)
     (drawings 81)
     (tracks 1054)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x0103c_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory Output/PCBBT-8CH-4JOY-OLED_Gerbers_2018-03-19/))
   )
 
   (net 0 "")
@@ -3232,7 +3232,7 @@
   (gr_line (start 190.5 149.86) (end 190.5 25.4) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 101.6 160.02) (end 190.5 160.02) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 101.6 76.2) (end 101.6 25.4) (layer Edge.Cuts) (width 0.15))
-  (gr_text "PCBBT-8CH-4JOY-OLED\nBelievotron 8-Axis Motor \n4 Joystick Adapter Board\n2018-02-24\nIt was better next year" (at 120.65 154.94) (layer F.SilkS)
+  (gr_text "PCBBT-8CH-4JOY-OLED\nBelievotron 8-Axis Motor \n4 Joystick Adapter Board\n2018-03-19\nIt was better next year" (at 120.65 154.94) (layer F.SilkS)
     (effects (font (size 0.9 0.9) (thickness 0.1875)) (justify left))
   )
   (gr_line (start 101.6 76.2) (end 101.6 149.86) (layer Edge.Cuts) (width 0.15))
