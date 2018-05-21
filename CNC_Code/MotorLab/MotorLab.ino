@@ -281,10 +281,10 @@ void loop()
     #define DIRFWD 1
     #define DIRREV 0
 
-    setMotorDir(JOY0, YDIR, MOTOR0, DIRFWD);
+    setMotorDir(JOY0, XDIR, MOTOR0, DIRREV);
 
 
-    setMotorDir(JOY1, XDIR, MOTOR1, DIRFWD);
+    setMotorDir(JOY1, XDIR, MOTOR1, DIRREV);
 
     // int iMotor = 1;
     // if      (joy[i].iXVal > 900) { motors[iMotor].iDirection =  1; }
@@ -301,7 +301,7 @@ void loop()
     //
     // iMotor = 3;
 
-    setMotorDir(JOY1, YDIR, MOTOR3, DIRREV);
+    setMotorDir(JOY1, YDIR, MOTOR3, DIRFWD);
 
     // if      (joy[i].iYVal > 900) { motors[iMotor].iDirection = -1; }
     // else if (joy[i].iYVal < 432) { motors[iMotor].iDirection =  1; }
@@ -318,6 +318,7 @@ void loop()
 
             debugFoo(i, motors[i].iStep, motors[i].iDirection);
 
+            //if (i !=2) SetMotor(i, motors[i].iStep);
             SetMotor(i, motors[i].iStep);
         }
     }
