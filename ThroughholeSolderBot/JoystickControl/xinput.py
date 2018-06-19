@@ -355,6 +355,13 @@ def sample_first_joystick():
 
     @j.event
     def on_button(button, pressed):
+        if  ( (button == 3) and (pressed == 1) ):
+            foobear =112
+            print("left %d" % foobear)
+        elif (button == 4):
+            print("right")
+        elif (button == 10):
+            exit()
         print('button', button, pressed)
 
     left_speed = 0
